@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "release": "webpack --config config/production/webpack.config.js",             
-    "build": "webpack --config config/development/webpack.config.js",              
+    "release": "webpack --config config/production/webpack.config.js",
+    "build": "webpack --config config/development/webpack.config.js",
     "watch": "webpack --watch --config config/development/webpack.config.js"
   },
   "private": true,
@@ -20,8 +20,6 @@
     "babel-loader": "^8.2.2",
     "css-loader": "^5.0.1",
     "node-sass": "^5.0.0",
-    "optimize-css-assets-webpack-plugin": "^5.0.4",
-    "terser-webpack-plugin": "^5.0.3",
     "vue-loader": "^15.9.5",
     "vue-template-compiler": "^2.6.12",
     "webpack": "^5.10.2",
