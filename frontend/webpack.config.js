@@ -1,8 +1,4 @@
-// 開発or本番モードの選択(development、production、noneのいずれか設定必須)
-// development: 開発時のファイル出力のモード(最適化より時間短縮,エラー表示などを優先)
-// production: 本番時のファイル出力のモード(最適化されて出力される)
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
-// ソースマップの利用有無(productionのときはソースマップを利用しない)
 
 // ファイル出力時の絶対パス指定に使用
 const path = require('path');
