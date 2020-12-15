@@ -3,7 +3,6 @@
 // production: 本番時のファイル出力のモード(最適化されて出力される)
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 // ソースマップの利用有無(productionのときはソースマップを利用しない)
-const enabledSourceMap = MODE === "development";
 
 // ファイル出力時の絶対パス指定に使用
 const path = require('path');

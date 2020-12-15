@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "release": "webpack --config config/production/webpack.config.js",
-    "build": "webpack --config config/development/webpack.config.js",
-    "watch": "webpack --watch --config config/development/webpack.config.js"
+    "release": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js"
   },
   "private": true,
   "keywords": [],
